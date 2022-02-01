@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(184, 184, 243);
+    color: rgb(255, 255, 255);
+}
+
+.header-div {
+    background-image: linear-gradient(to right, #86a7d4, #02132c);
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+#uvindex {
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.dark{
+    background:rgb(0, 124, 87);
+    color:#fff;
+}
+
+input {
+    color:white;
+}
+img {
+    height: 25%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 img {
+    height: 50px;
+}
+
+.forecastday {
+    height: 200px;
+    flex-basis: 200px;
+    background-color: #1b5ab8;
+    border: rgb(184, 184, 243) 3px;
+    padding: 5px;
+}
+
+.col {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 10px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 2rem;
+}
+.current-weather {
+    border: black solid 3px;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: bold;
+}
+h3 {
+    font-weight: bold;
+}
